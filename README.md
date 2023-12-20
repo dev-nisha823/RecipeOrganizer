@@ -18,3 +18,7 @@ Python Programming Language, Tkinter for GUI
 * Click on Add recipe button if user want to add recipe to the listbox of main window.
 * For viewing, editing or deleting the particular recipe user have to select that recipe from the listbox. For sorting click on sort recipe button.
 * Click search button to search Recipe of your own choice by their name.
+
+# Edamam website link: 
+`https://developer.edamam.com/edamam-recipe-api`
+* In the edamam website you have to choose the API you want and then Login into the website after that search API and your `APPLICATION ID` and `API KEY` will be generated.
