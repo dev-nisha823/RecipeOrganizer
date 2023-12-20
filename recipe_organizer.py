@@ -299,8 +299,8 @@ class RecipeOrganizer:
     # function to perform search operation
     def perform_search(self, query):
         # Edamam application ID and apikey
-        edamam_app_id = 'ad79754f'
-        api_key = '9a6f2888ad1b2265659bd91a0195297c'  
+        edamam_app_id = 'Your Edamam Application ID'
+        api_key = 'Your Edamam API KEY'  
         url = f"https://api.edamam.com/search?q={query}&app_id={edamam_app_id}&app_key={api_key}"
         
         try:
@@ -322,8 +322,8 @@ class RecipeOrganizer:
 
     # Function to display the recipe details from Edamam API
     def display_recipe_details_edamam(self, recipe):
-        edamam_app_id = 'ad79754f'
-        api_key = '9a6f2888ad1b2265659bd91a0195297c'
+        edamam_app_id = 'Your Edamam Application ID'
+        api_key = 'Your Edamam API KEY'
         url = f"https://api.edamam.com/search?q={recipe.get('label', '')}&app_id={edamam_app_id}&app_key={api_key}"
 
         try:
