@@ -21,4 +21,5 @@ Python Programming Language, Tkinter for GUI
 
 # Edamam website link: 
 `https://developer.edamam.com/edamam-recipe-api`
-* In the edamam website you have to choose the API you want and then Login into the website after that search API and your `APPLICATION ID` and `API KEY` will be generated.
+* In the edamam website you have to choose the API you want and then Login into the website after that search API and your
+  `APPLICATION ID` and `API KEY` will be generated.
